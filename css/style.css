@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{font-size: 32px;}
+p{font-size: 20px;}
+
+
+
+header{
+    border-bottom: 3px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.projects{
+    height: fit-content;
+    width: 300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects div{
+    display: none;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    
+}
+
+#gamehub{background-color: #000; color: #654FFF;}
+#gamehub button{background-color: #654FFF; color: #fff; box-shadow: 0 5px 4px #2d2d2d;}
+
+#tcsm button{background-color: #01EDBB;}
+
+#pe1 {background-color: #FFFDD0;}
+
+
+
+.projects img{height: 250px; width: 300px;}
+.projects h1{margin: 0; text-align: center;}
+.projects p{margin-top: 10px; width: 375px;}
+.projects:hover{width: 450px;}
+.projects:hover img{height: 350px; width: 450px;}
+.projects:hover div{display: flex;}
+
+.projects button{
+    width: fit-content;
+    height: 40px;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    box-shadow: 0 5px 4px;
+}
+
+
+.projects button:hover{background-color: aqua; font-weight: bold;}
+
+
+
+
+main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 1500px;
+    justify-content: space-evenly;
+    border: solid yellow;
+}
+
+main{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    border-top: 3px solid #000;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+}
